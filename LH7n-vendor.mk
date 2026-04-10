@@ -190,6 +190,11 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/LH7n/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml \
     vendor/tecno/LH7n/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml \
     vendor/tecno/LH7n/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
+    vendor/tecno/LH7n/proprietary/vendor/etc/gralloc/cam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/cam.xml \
+    vendor/tecno/LH7n/proprietary/vendor/etc/gralloc/dpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu.xml \
+    vendor/tecno/LH7n/proprietary/vendor/etc/gralloc/dpu_aeu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu_aeu.xml \
+    vendor/tecno/LH7n/proprietary/vendor/etc/gralloc/gpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/gpu.xml \
+    vendor/tecno/LH7n/proprietary/vendor/etc/gralloc/vpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/vpu.xml \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
@@ -245,6 +250,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/LH7n/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/tecno/LH7n/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/tecno/LH7n/proprietary/vendor/etc/libnfc-slm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-slm.conf \
+    vendor/tecno/LH7n/proprietary/vendor/etc/mali_platform.config:$(TARGET_COPY_OUT_VENDOR)/etc/mali_platform.config \
     vendor/tecno/LH7n/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/tecno/LH7n/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
     vendor/tecno/LH7n/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
@@ -454,6 +460,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.isphal@1.1-impl \
     vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
     vendor.mediatek.hardware.pq@2.15-impl \
+    vulkan.mali \
     sensors.mediatek.V2.0 \
     sound_trigger.primary.mt6789 \
     vendor.mediatek.hardware.keymaster_attestation@1.1-impl \
@@ -1498,6 +1505,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_hw_vendor_mediatek_hardware_camera_isphal@1_1-impl_so \
     vendor_lib64_hw_vendor_mediatek_hardware_camera_lomoeffect@1_0-impl_so \
     vendor_lib64_hw_vendor_mediatek_hardware_pq@2_15-impl_so \
+    vendor_lib64_hw_vulkan_mali_so \
     vendor_lib64_hw_sensors_mt6789_so \
     vendor_lib64_arm_graphics-V1-ndk_platform_so \
     vendor_lib64_arm_graphics-V3-ndk_so \
