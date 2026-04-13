@@ -406,7 +406,6 @@ PRODUCT_PACKAGES += \
     libladder \
     libthha \
     libtneclient \
-    libtranlog \
     libvcodec_oal \
     libvcodecdrv_header_stub \
     libverno \
@@ -825,7 +824,6 @@ PRODUCT_PACKAGES += \
     liblibarm_mali_config_sysprops \
     libmegface \
     libminiui \
-    libminizip \
     libmipc \
     libmmagent \
     libmml \
